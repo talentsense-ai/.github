@@ -1,0 +1,107 @@
+name: Feature request
+description: Propose a new feature or improvement for TalentSense
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem and the desired outcome.
+        We use GitHub Projects for Priority/Area tracking, but this form helps capture the full context.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the product is this related to?
+      options:
+        - Frontend
+        - Backend
+        - Infra / CI
+        - Docs
+        - Product / UX
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority (Project field)
+      description: Pick a rough priority. We'll set the official value in GitHub Projects.
+      options:
+        - P0 - Must have (MVP blocker)
+        - P1 - Should have (high value)
+        - P2 - Nice to have
+        - P3 - Later / idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What problem are we solving? Who benefits?
+      placeholder: |
+        Example:
+        Recruiters need a quick way to compare multiple candidates for the same JD.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should be built? Describe expected behavior.
+      placeholder: |
+        Example:
+        Add a "Compare" view that lets users select up to 3 evaluations and compare scores + skills side by side.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope (MVP vs V2/V3)
+      description: Define what's in and out. Keep it realistic.
+      placeholder: |
+        In scope (MVP):
+        - ...
+        Out of scope:
+        - ...
+        Follow-ups (V2/V3):
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Bullet points that define "done".
+      placeholder: |
+        - User can ...
+        - System validates ...
+        - Errors are handled with ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links, screenshots, references, or notes.
+      placeholder: "Link to mockups / related issues / docs."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: This request is specific enough to be implemented.
+          required: true
+        - label: No sensitive information is included.
+          required: true

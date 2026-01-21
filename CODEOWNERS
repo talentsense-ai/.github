@@ -1,0 +1,24 @@
+# CODEOWNERS
+# Format:
+# <pattern>  <owner1> <owner2> ...
+#
+# Owners can be users (@username) or teams (@org/team).
+# Recommendation: use teams, not individual users.
+
+# Default: everything requires review from maintainers
+* @talentsense-ai/maintainers
+
+# --- Frontend ownership ---
+# If you later want stricter ownership, uncomment these in the frontend repo:
+# /src/ @talentsense-ai/maintainers
+
+# --- Backend ownership ---
+# /app/ @talentsense-ai/maintainers
+
+# --- Infra ownership ---
+# /infra/ @talentsense-ai/maintainers
+# /.github/workflows/ @talentsense-ai/maintainers
+
+# --- Security / governance ---
+/.github/ @talentsense-ai/maintainers
+/SECURITY.md @talentsense-ai/maintainers
