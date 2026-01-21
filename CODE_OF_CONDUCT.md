@@ -1,4 +1,4 @@
-# Code of Conduct
+﻿# Code of Conduct
 
 ## Our Pledge
 
@@ -19,7 +19,7 @@ Examples of unacceptable behavior include:
 - The use of sexualized language or imagery and unwelcome sexual attention or advances
 - Trolling, insulting or derogatory comments, and personal or political attacks
 - Public or private harassment
-- Publishing others’ private information (such as a physical or email address) without explicit permission
+- Publishing others' private information (such as a physical or email address) without explicit permission
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Enforcement Responsibilities
@@ -38,10 +38,8 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 **Reporting:**
 
-- Preferred: use GitHub’s private vulnerability/security reporting if available (keeps details non-public).
-- Otherwise: open a GitHub issue titled **"[Moderation] Code of Conduct report"** and include relevant links, timestamps, and a short factual description.
-
-Please avoid posting sensitive personal information in public issues.
+- Preferred: email amandreacchi@gmail.com (private inbox for the maintainers).
+- Otherwise: open a GitHub issue titled "[Moderation] Code of Conduct report" and include relevant links, timestamps, and a short factual description. Avoid posting sensitive personal information in public issues.
 
 All complaints will be reviewed and investigated promptly and fairly.
 
@@ -51,24 +49,24 @@ Maintainers will follow these Community Impact Guidelines in determining the con
 
 ### 1. Correction
 
-**Community Impact:** Use of inappropriate language or other behavior deemed unprofessional or unwelcome.  
+**Community Impact:** Use of inappropriate language or other behavior deemed unprofessional or unwelcome.
 **Consequence:** A private, written warning providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
 
 ### 2. Warning
 
-**Community Impact:** A violation through a single incident or series of actions.  
+**Community Impact:** A violation through a single incident or series of actions.
 **Consequence:** A written warning with consequences for continued behavior. No interaction with the people involved may be required for a specified period of time.
 
 ### 3. Temporary Ban
 
-**Community Impact:** A serious violation of community standards, including sustained inappropriate behavior.  
+**Community Impact:** A serious violation of community standards, including sustained inappropriate behavior.
 **Consequence:** A temporary ban from any sort of interaction or public communication with the project for a specified period of time.
 
 ### 4. Permanent Ban
 
-**Community Impact:** Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward classes of individuals.  
+**Community Impact:** Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward classes of individuals.
 **Consequence:** A permanent ban from any sort of interaction or public communication with the project.
 
 ## Attribution
 
-This Code of Conduct is adapted from the **Contributor Covenant**, version 2.1.
+This Code of Conduct is adapted from the Contributor Covenant, version 2.1.
