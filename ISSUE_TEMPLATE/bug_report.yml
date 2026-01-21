@@ -1,0 +1,117 @@
+name: Bug report
+description: Report a problem to help us improve TalentSense
+title: "[Bug]: "
+labels:
+  - "type: bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please provide enough detail so we can reproduce and fix it.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where is the bug happening?
+      options:
+        - Frontend
+        - Backend
+        - Infra / CI
+        - Docs
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Impact level
+      options:
+        - P0 - Blocking (cannot use the product)
+        - P1 - High (major feature broken)
+        - P2 - Medium (workaround exists)
+        - P3 - Low (minor annoyance)
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of the bug.
+      placeholder: "When I click 'Evaluate', the request fails with a 500 error."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Go to /evaluate
+        2. Paste a Job Description
+        3. Upload a CV PDF
+        4. Click "Evaluate"
+        5. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "An evaluation is created and results are shown."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: "A toast shows 'Something went wrong' and the request returns 500."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / recordings
+      description: Drag and drop images or paste links (optional).
+      placeholder: "Attach screenshots or short recordings if available."
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / error output
+      description: Paste relevant logs (frontend console, backend logs, network response, etc.). Please remove secrets.
+      render: shell
+      placeholder: |
+        - Browser console:
+        - Network response:
+        - Backend logs:
+    validations:
+      required: false
+
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, browser (if frontend), runtime versions (if backend).
+      placeholder: "Windows 11 / Chrome 122 / Node 20 / Python 3.11"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: I removed any sensitive information (API keys, tokens, personal data).
+          required: true
